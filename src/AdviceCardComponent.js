@@ -30,14 +30,14 @@ const AdviceCardComponent = () => {
 
   return (
     <div className='card'> 
-      <span className='adviceID'>Advice #{data?.slip?.id}</span>
+      <h1 className='adviceID'>Advice #{data?.slip?.id}</h1>
       <blockquote>
         "{data?.slip?.advice}"
       </blockquote>
 
       <img src={divide} alt="divide" className='divide-img' />
 
-      <button type="" onClick={handleClick}>
+      <button type="submit" onClick={handleClick}>
         <img src={dice} alt="dice"/>
       </button>
     </div>

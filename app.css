@@ -31,6 +31,11 @@ main{
     align-items: center;
 }
 
+.card h1{
+    margin: 0;
+    font-size: 1.125rem ;
+}
+
 .card button{
     background-color: var(--secondary-color);
     border: none;
