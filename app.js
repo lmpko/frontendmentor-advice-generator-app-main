@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom/client"
+import AdviceCardComponent from "./src/AdviceCardComponent";
 
 const root = ReactDom.createRoot(document.getElementById("root"))
-root.render()
+root.render(<AdviceCardComponent/>)

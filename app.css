@@ -13,4 +13,57 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-color: var(--fifthary-color);
+    font-family: 'Manrope', sans-serif;
+}
+
+main{
+    background-color: var(--fouthary-color);
+    color: var(--primary-color);
+    width: 20.3125rem ;
+    border-radius: .9375rem ;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card button{
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    top: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.card button:hover{
+    box-shadow: 0 0 35px 5px var(--secondary-color);
+}
+
+.card blockquote{
+    font-size: 1.75rem ;
+    padding: 0 .9375rem .9375rem .9375rem;
+    margin: 0;
+}
+
+.card .adviceID{
+    padding: 2.8125rem 0;
+    text-transform: uppercase;
+    letter-spacing: .3438rem;
+    color: var(--secondary-color);
+}
+
+.divide-img{
+    padding: .9375rem ;
+}
+
+@media screen and (min-width: 48rem){
+    main{
+        width: 34.375rem ;
+    }
 }
