@@ -6,3 +6,11 @@
     --fouthary-color: hsl(217, 19%, 24%);
     --fifthary-color: hsl(218, 23%, 16%);
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
